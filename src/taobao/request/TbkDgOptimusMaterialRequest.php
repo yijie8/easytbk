@@ -1,63 +1,63 @@
 <?php
 /**
  * TOP API: taobao.tbk.dg.optimus.material request
- * 
+ *
  * @author auto create
  * @since 1.0, 2019.10.31
  */
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 
 class TbkDgOptimusMaterialRequest
 {
-	/** 
+	/**
 	 * mm_xxx_xxx_xxx的第三位
 	 **/
 	private $adzoneId;
 	
-	/** 
+	/**
 	 * 内容专用-内容详情ID
 	 **/
 	private $contentId;
 	
-	/** 
+	/**
 	 * 内容专用-内容渠道信息
 	 **/
 	private $contentSource;
 	
-	/** 
+	/**
 	 * 智能匹配-设备号加密类型：MD5
 	 **/
 	private $deviceEncrypt;
 	
-	/** 
+	/**
 	 * 智能匹配-设备号类型：IMEI，或者IDFA，或者UTDID（UTDID不支持MD5加密）
 	 **/
 	private $deviceType;
 	
-	/** 
+	/**
 	 * 智能匹配-设备号加密后的值（MD5加密需32位小写）
 	 **/
 	private $deviceValue;
 	
-	/** 
+	/**
 	 * 商品ID，用于相似商品推荐
 	 **/
 	private $itemId;
 	
-	/** 
+	/**
 	 * 官方的物料Id(详细物料id见：https://tbk.bbs.taobao.com/detail.html?appId=45301&postId=8576096)
 	 **/
 	private $materialId;
 	
-	/** 
+	/**
 	 * 第几页，默认：1
 	 **/
 	private $pageNo;
 	
-	/** 
+	/**
 	 * 页大小，默认20，1~100
 	 **/
 	private $pageSize;

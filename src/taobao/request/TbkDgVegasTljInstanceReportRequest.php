@@ -1,16 +1,16 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.dg.vegas.tlj.instance.report request
- * 
+ *
  * @author auto create
  * @since 1.0, 2019.09.11
  */
 class TbkDgVegasTljInstanceReportRequest
 {
-	/** 
+	/**
 	 * 实例ID
 	 **/
 	private $rightsId;

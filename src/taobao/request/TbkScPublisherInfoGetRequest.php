@@ -1,36 +1,36 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.sc.publisher.info.get request
- * 
+ *
  * @author auto create
  * @since 1.0, 2018.06.25
  */
 class TbkScPublisherInfoGetRequest
 {
-	/** 
+	/**
 	 * 类型，必选 1:渠道备案
 	 **/
 	private $infoType;
 	
-	/** 
+	/**
 	 * 第几页
 	 **/
 	private $pageNo;
 	
-	/** 
+	/**
 	 * 每页大小
 	 **/
 	private $pageSize;
 	
-	/** 
+	/**
 	 * 渠道推广的物料类型
 	 **/
 	private $relationApp;
 	
-	/** 
+	/**
 	 * 渠道备案 - 渠道关系ID
 	 **/
 	private $relationId;

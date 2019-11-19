@@ -1,8 +1,8 @@
 <?php
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
+namespace Yijie\EasyTBK\PinDuoDuo\Request;
 
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+use Yijie\EasyTBK\PinDuoDuo\RequestInterface;
 
 class DdkAllOrderListIncrementGetRequest implements  RequestInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\SuNing;
+namespace Yijie\EasyTBK\SuNing;
 
 class SelectSuningRequest
 {
@@ -59,7 +59,7 @@ class SelectSuningRequest
     	
         if (RequestCheckUtil::checkEmpty($this->pageSize)){
     	    $this->pageSize = $pageSizeMin;
-    	} 
+    	}
     	
         RequestCheckUtil::checkPositiveInteger($this->pageNo, 'pageNo');
         RequestCheckUtil::checkMinValue($this->pageNo, $pageNoMin, 'pageNo');

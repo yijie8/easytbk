@@ -1,12 +1,12 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\JingDong\Request;
+namespace Yijie\EasyTBK\JingDong\Request;
 
-use NiuGengYun\EasyTBK\JingDong\RequestInterface;
+use Yijie\EasyTBK\JingDong\RequestInterface;
 
 /**
  * Class JdUnionOrderQueryRequest
- * @package NiuGengYun\EasyTBK\JingDong\Request
+ * @package Yijie\EasyTBK\JingDong\Request
  */
 class JdUnionOrderQueryRequest implements RequestInterface
 {

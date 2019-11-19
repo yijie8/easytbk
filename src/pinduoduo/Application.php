@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\PinDuoDuo;
+namespace Yijie\EasyTBK\PinDuoDuo;
 
 
 class Application

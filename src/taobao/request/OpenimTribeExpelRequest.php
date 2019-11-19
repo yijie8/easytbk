@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.openim.tribe.expel request
  *

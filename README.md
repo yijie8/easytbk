@@ -17,15 +17,15 @@ composer require niugengyun/easytbk
 2、执行下面的命令，然后修改config/easytbk.php
 
 ```bash
-php artisan vendor:publish --provider "NiuGengYun\EasyTBK\ServiceProvider"
+php artisan vendor:publish --provider "Yijie\EasyTBK\ServiceProvider"
 ```
 
 3、淘宝SDK初始化
 
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\TaoBao\Request\TbkItemInfoGetRequest;
+use Yijie\EasyTBK\Factory;
+use Yijie\EasyTBK\TaoBao\Request\TbkItemInfoGetRequest;
 
 $client = Factory::taobao ();
 $req = new TbkItemInfoGetRequest;

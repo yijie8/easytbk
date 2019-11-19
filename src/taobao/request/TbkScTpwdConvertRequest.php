@@ -1,31 +1,31 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.sc.tpwd.convert request
- * 
+ *
  * @author auto create
  * @since 1.0, 2019.08.13
  */
 class TbkScTpwdConvertRequest
 {
-	/** 
+	/**
 	 * 广告位ID
 	 **/
 	private $adzoneId;
 	
-	/** 
+	/**
 	 * 1表示商品转通用计划链接，其他值或不传表示优先转营销计划链接
 	 **/
 	private $dx;
 	
-	/** 
+	/**
 	 * 需要解析的淘口令
 	 **/
 	private $passwordContent;
 	
-	/** 
+	/**
 	 * 备案的网站id, mm_xx_xx_xx pid三段式中的第二段
 	 **/
 	private $siteId;

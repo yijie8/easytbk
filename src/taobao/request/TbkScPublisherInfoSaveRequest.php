@@ -1,41 +1,41 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.sc.publisher.info.save request
- * 
+ *
  * @author auto create
  * @since 1.0, 2018.06.28
  */
 class TbkScPublisherInfoSaveRequest
 {
-	/** 
+	/**
 	 * 类型，必选 1:渠道备案
 	 **/
 	private $infoType;
 	
-	/** 
+	/**
 	 * 渠道备案 - 淘宝客邀请渠道的邀请码
 	 **/
 	private $inviterCode;
 	
-	/** 
+	/**
 	 * 媒体侧渠道备注
 	 **/
 	private $note;
 	
-	/** 
+	/**
 	 * 渠道备案 - 线下场景信息，1 - 门店，2- 学校，3 - 工厂，4 - 其他
 	 **/
 	private $offlineScene;
 	
-	/** 
+	/**
 	 * 渠道备案 - 线上场景信息，1 - 微信群，2- QQ群，3 - 其他
 	 **/
 	private $onlineScene;
 	
-	/** 
+	/**
 	 * 渠道备案 - 来源，取链接的来源
 	 **/
 	private $relationFrom;

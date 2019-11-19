@@ -1,11 +1,12 @@
 <?php
 
-namespace NiuGengYun\EasyTBK;
+namespace Yijie\EasyTBK;
 
+use Swoft\Stdlib\Helper\ArrayHelper;
 use function GuzzleHttp\Psr7\str;
-use NiuGengYun\EasyTBK\TaoBao\Application as TaoBao;
-use NiuGengYun\EasyTBK\PinDuoDuo\Application as PinDuoDuo;
-use NiuGengYun\EasyTBK\JingDong\Application as JingDong;
+use Yijie\EasyTBK\TaoBao\Application as TaoBao;
+use Yijie\EasyTBK\PinDuoDuo\Application as PinDuoDuo;
+use Yijie\EasyTBK\JingDong\Application as JingDong;
 
 /**
  * Class Factory.
@@ -105,7 +106,7 @@ class Factory
             if (!array_key_exists ('app_key', $config) || !array_key_exists ('app_secret', $config)) {
                 throw new \InvalidArgumentException('The jingdong client requires app_key and app_secret.');
             }
-            return array_only ($config, ['app_key', 'app_secret', 'format']);
+            return ArrayHelper::filter($config, ['app_key', 'app_secret', 'format']);
         }
 
     }

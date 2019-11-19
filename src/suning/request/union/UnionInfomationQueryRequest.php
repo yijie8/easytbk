@@ -6,9 +6,9 @@
  * @date   2015-10-28
  */
 
-namespace NiuGengYun\EasyTBK\SuNing\Request\Union;
+namespace Yijie\EasyTBK\SuNing\Request\Union;
 
-use NiuGengYun\EasyTBK\SuNing\SelectSuningRequest;
+use Yijie\EasyTBK\SuNing\SelectSuningRequest;
 
 class UnionInfomationQueryRequest extends SelectSuningRequest
 {

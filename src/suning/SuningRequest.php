@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\SuNing;
+namespace Yijie\EasyTBK\SuNing;
 
 abstract class SuningRequest
 {

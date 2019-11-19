@@ -1,17 +1,17 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.content.effect.get request
- * 
+ *
  * @author auto create
  * @since 1.0, 2018.07.25
  */
 class TbkContentEffectGetRequest
 {
-	/** 
+	/**
 	 * 入参
 	 **/
 	private $option;
@@ -41,7 +41,7 @@ class TbkContentEffectGetRequest
 	
 	public function check()
 	{
-		
+	
 	}
 	
 	public function putOtherTextParam($key, $value) {

@@ -1,81 +1,81 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 /**
  * TOP API: taobao.tbk.item.guess.like request
- * 
+ *
  * @author auto create
  * @since 1.0, 2018.11.09
  */
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 
 class TbkItemGuessLikeRequest
 {
-	/** 
+	/**
 	 * 广告位ID
 	 **/
 	private $adzoneId;
 	
-	/** 
+	/**
 	 * 应用包名
 	 **/
 	private $apnm;
 	
-	/** 
+	/**
 	 * ios广告跟踪id
 	 **/
 	private $idfa;
 	
-	/** 
+	/**
 	 * android设备imei
 	 **/
 	private $imei;
 	
-	/** 
+	/**
 	 * android设备imeiMD5值，32位小写
 	 **/
 	private $imeiMd5;
 	
-	/** 
+	/**
 	 * 客户端ip
 	 **/
 	private $ip;
 	
-	/** 
+	/**
 	 * 设备型号
 	 **/
 	private $mn;
 	
-	/** 
+	/**
 	 * 联网方式，wifi, cell, unknown
 	 **/
 	private $net;
 	
-	/** 
+	/**
 	 * 系统类型，ios, android, other
 	 **/
 	private $os;
 	
-	/** 
+	/**
 	 * 第几页
 	 **/
 	private $pageNo;
 	
-	/** 
+	/**
 	 * 页大小
 	 **/
 	private $pageSize;
 	
-	/** 
+	/**
 	 * userAgent
 	 **/
 	private $ua;
 	
-	/** 
+	/**
 	 * 用户数字ID，from cookie : unb
 	 **/
 	private $userId;
 	
-	/** 
+	/**
 	 * 用户昵称，from cookie : _nk_或者tracknick ; from百川sdk : nick
 	 **/
 	private $userNick;

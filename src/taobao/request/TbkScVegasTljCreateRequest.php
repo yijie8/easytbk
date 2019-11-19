@@ -1,47 +1,47 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.sc.vegas.tlj.create request
- * 
+ *
  * @author auto create
  * @since 1.0, 2019.02.20
  */
 class TbkScVegasTljCreateRequest
 {
-	/** 
+	/**
 	 * 妈妈广告位Id
 	 **/
 	private $adzoneId;
 	
-	/** 
+	/**
 	 * 宝贝id
 	 **/
 	private $itemId;
 	
-	/** 
+	/**
 	 * 淘礼金名称，最大10个字符
 	 **/
 	private $name;
 	
-	/** 
+	/**
 	 * 单个淘礼金面额，支持两位小数，单位元
 	 **/
 	private $perFace;
 	
-	/** 
+	/**
 	 * 妈妈siteId
 	 **/
 	private $siteId;
 	
-	/** 
+	/**
 	 * 淘礼金总个数
 	 **/
 	private $totalNum;
 	
-	/** 
+	/**
 	 * 单用户累计中奖次数上限
 	 **/
 	private $userTotalWinNumLimit;

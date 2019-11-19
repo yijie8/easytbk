@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace Yijie\EasyTBK\TaoBao\Domain;
 
 /**
  * 消息内容节点序列
@@ -9,14 +9,14 @@ namespace NiuGengYun\EasyTBK\TaoBao\Domain;
 class MessageItem
 {
 	
-	/** 
+	/**
 	 * 节点类型
 	 **/
 	public $type;
 	
-	/** 
+	/**
 	 * 节点值
 	 **/
-	public $value;	
+	public $value;
 }
 ?>

@@ -6,10 +6,10 @@
  * @date   2018-3-6
  */
 
-namespace NiuGengYun\EasyTBK\SuNing\Request\Netalliance;
+namespace Yijie\EasyTBK\SuNing\Request\Netalliance;
 
-use NiuGengYun\EasyTBK\SuNing\SelectSuningRequest;
-use NiuGengYun\EasyTBK\SuNing\RequestCheckUtil;
+use Yijie\EasyTBK\SuNing\SelectSuningRequest;
+use Yijie\EasyTBK\SuNing\RequestCheckUtil;
 
 class UnionInfomationQueryRequest extends SelectSuningRequest
 {

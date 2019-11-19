@@ -6,10 +6,10 @@
  * @date   2019-4-30
  */
 
-namespace NiuGengYun\EasyTBK\SuNing\Request\Netalliance;
+namespace Yijie\EasyTBK\SuNing\Request\Netalliance;
 
-use NiuGengYun\EasyTBK\SuNing\SuningRequest;
-use NiuGengYun\EasyTBK\SuNing\RequestCheckUtil;
+use Yijie\EasyTBK\SuNing\SuningRequest;
+use Yijie\EasyTBK\SuNing\RequestCheckUtil;
 
 class ThirdpartypromotionGetRequest extends SuningRequest
 {

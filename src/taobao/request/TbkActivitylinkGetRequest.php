@@ -1,42 +1,42 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Yijie\EasyTBK\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Yijie\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.activitylink.get request
- * 
+ *
  * @author auto create
  * @since 1.0, 2019.07.03
  */
 class TbkActivitylinkGetRequest
 {
-	/** 
+	/**
 	 * 推广位id，mm_xx_xx_xx pid三段式中的第三段。adzone_id需属于appKey拥有者
 	 **/
 	private $adzoneId;
 	
-	/** 
+	/**
 	 * 1：PC，2：无线，默认：１
 	 **/
 	private $platform;
 	
-	/** 
+	/**
 	 * 官方活动ID，从官方活动页获取
 	 **/
 	private $promotionSceneId;
 	
-	/** 
+	/**
 	 * 渠道关系ID，仅适用于渠道推广场景
 	 **/
 	private $relationId;
 	
-	/** 
+	/**
 	 * 媒体平台下达人的淘客pid
 	 **/
 	private $subPid;
 	
-	/** 
+	/**
 	 * 自定义输入串，英文和数字组成，长度不能大于12个字符，区分不同的推广渠道
 	 **/
 	private $unionId;
