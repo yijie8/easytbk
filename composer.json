@@ -1,14 +1,14 @@
 {
-    "name": "niugengyun/easytbk",
+    "name": "yijie/easytbk",
     "type": "library",
     "description": "no description",
     "keywords": ["sdk"],
-    "homepage": "https://github.com/niugengyun/easytbk",
+    "homepage": "https://github.com/yijie8/easytbk",
     "license": "MIT",
     "authors": [
         {
-            "name": "niugengyun",
-            "email": "515343908@qq.com"
+            "name": "yijie8",
+            "email": "77780886@qq.com"
         }
     ],
     "require": {
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NiuGengYun\\EasyTBK\\": "src/"
+            "Yijie\\EasyTBK\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NiuGengYun\\EasyTBK\\ServiceProvider"
+                "Yijie\\EasyTBK\\ServiceProvider"
             ]
         }
     }
