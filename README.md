@@ -3,6 +3,7 @@
 https://github.com/Hanson/open-taobao-sdk
 
 
+~/swoft/vendor/yijie/easytbk
 git add . && git commit -m 'test' && git push
 # 介绍
 
