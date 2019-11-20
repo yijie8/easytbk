@@ -1,3 +1,9 @@
+# 废弃
+本想改写一下变成swoft里能用的，后来发现了另一个也比较好用，建议用这个
+https://github.com/Hanson/open-taobao-sdk
+
+
+git add . && git commit -m 'test' && git push
 # 介绍
 
 淘宝联盟、京东联盟、多多进宝SDK封装，有bug或者新增api请提交PR
